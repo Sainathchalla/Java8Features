@@ -10,18 +10,8 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) {
 
-        Integer n1 = 100;
-        Integer n2 = 100;
-
-        Integer n3 = 200;
-        Integer n4 = 200;
-
-        System.out.println(n1 == n2);
-        System.out.println(n3 == n4);
-
-
-//        LocalDate localDate = LocalDate.now();
-//        System.out.println(localDate.getDayOfWeek());
+        LocalDate localDate = LocalDate.now();
+        System.out.println(localDate.getDayOfWeek());
 
 
 //        LocalTime localTime = LocalTime.now();
@@ -42,7 +32,7 @@ public class Main {
 //        Period period = Period.between(LocalDate.now(), LocalDate.now());
 //        System.out.println(period);
 //
-//        Duration duration = Duration.ofHours(2);
+//        DurationExample duration = DurationExample.ofHours(2);
 //        System.out.println(duration);
 //
 //        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.FULL);
